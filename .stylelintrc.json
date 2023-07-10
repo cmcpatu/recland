@@ -1,0 +1,15 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "ignoreFiles": ["*/.{js,json,html,tgz,jpg,jpeg,svg,png}", "dist/**/*.*"],
+  "rules": {
+    "max-nesting-depth": 2,
+    "color-named": "never",
+    "at-rule-no-unknown": [true, { "ignoreAtRules": ["for", "if", "function", "mixin", "include"] }],
+    "no-duplicate-selectors": true,
+    "no-empty-source": true,
+    "block-no-empty": true
+  }
+}
