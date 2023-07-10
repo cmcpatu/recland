@@ -139,13 +139,40 @@
 .jobs__item__heading__left {
   display: flex;
   align-items: center;
+  gap: 5px;
   /* padding: 10px; */
 }
 
+.jobs__item__title {
+  color: $black;
+}
+
+.jobs__item__footer__right {
+  background: $red;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.jobs__item__body__money {
+  font-weight: bold;
+}
+
+.jobs__item__body__money__type {
+  font-size: 12px;
+  color: $dark-blue;
+}
+
 .jobs__item__heading__right {
+  @extend .jobs__item__body__money__type;
   background: #ebf1f1;;
   border-radius: 10px;
   padding: 5px;
+  flex-shrink: 0;
 }
 
 .jobs__item__heading__left img {
@@ -173,14 +200,7 @@
   gap: 10px;
 }
 .jobs__item__location, .jobs__item__status {
-  width: 50px;
-  height: 28px;
-  border-radius: 8px;
-  background: $gray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 12px;
+  @extend .jobs__item__heading__right;
 }
 /* end jobs */
 
@@ -279,7 +299,7 @@
 
 /* start footer */
 .footer-wrap {
-  margin-top: 40px;
+  margin-top: 100px;
   padding-bottom: 60px;
 }
 .footer__main {
@@ -288,6 +308,8 @@
   grid-template-columns: 200px 1fr 1fr 1fr 1fr;
   font-size: 18px;
   line-height: 28px;
+  border-bottom: 1px solid #E5E5E5;
+  padding-block: 20px
 }
 .footer__images {
   width: 200px;

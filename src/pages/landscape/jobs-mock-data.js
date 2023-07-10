@@ -1,7 +1,12 @@
-import JobImage from '../../resources/images/svg/Job-1.svg';
+import JobIcon1 from '../../resources/images/svg/JobIcon-1.svg';
+import JobIcon2 from '../../resources/images/svg/JobIcon-2.svg';
+import JobIcon3 from '../../resources/images/svg/JobIcon-3.svg';
+import JobIcon4 from '../../resources/images/svg/JobIcon-4.svg';
+import JobIcon5 from '../../resources/images/svg/JobIcon-5.svg';
+import JobIcon6 from '../../resources/images/svg/JobIcon-6.svg';
 
 const jobsList = [{
-  image: JobImage,
+  image: JobIcon1,
   title: 'Data Engineer',
   type: 'Full-time',
   leftMoneyType: 'Hoa Hồng',
@@ -12,8 +17,8 @@ const jobsList = [{
   status: 'Onboard',
   rank: 'premium',
 }, {
-  image: JobImage,
-  title: 'Data Engineer',
+  image: JobIcon1,
+  title: 'Junior PHP Developer ~ 15-2...',
   type: 'Full-time',
   leftMoneyType: 'Hoa Hồng',
   leftValue: '12000000 VNĐ',
@@ -23,8 +28,8 @@ const jobsList = [{
   status: 'Onboard',
   rank: 'premium',
 }, {
-  image: JobImage,
-  title: 'Data Engineer',
+  image: JobIcon2,
+  title: 'Senior PHP Developer ~ Upto 40M',
   type: 'Full-time',
   leftMoneyType: 'Hoa Hồng',
   leftValue: '12000000 VNĐ',
@@ -34,8 +39,8 @@ const jobsList = [{
   status: 'Onboard',
   rank: 'premium',
 }, {
-  image: JobImage,
-  title: 'Data Engineer',
+  image: JobIcon3,
+  title: 'Java Software Engineer (multiple positions)',
   type: 'Full-time',
   leftMoneyType: 'Hoa Hồng',
   leftValue: '12000000 VNĐ',
@@ -45,8 +50,8 @@ const jobsList = [{
   status: 'Onboard',
   rank: 'premium',
 }, {
-  image: JobImage,
-  title: 'Data Engineer',
+  image: JobIcon4,
+  title: 'Senior Fullstack   Engineer',
   type: 'Full-time',
   leftMoneyType: 'Hoa Hồng',
   leftValue: '12000000 VNĐ',
@@ -56,8 +61,8 @@ const jobsList = [{
   status: 'Onboard',
   rank: 'premium',
 }, {
-  image: JobImage,
-  title: 'Data Engineer',
+  image: JobIcon5,
+  title: 'C++ Network Software Engineer',
   type: 'Full-time',
   leftMoneyType: 'Hoa Hồng',
   leftValue: '12000000 VNĐ',
@@ -67,8 +72,8 @@ const jobsList = [{
   status: 'Onboard',
   rank: 'premium',
 }, {
-  image: JobImage,
-  title: 'Data Engineer',
+  image: JobIcon6,
+  title: 'Junior PHP Developer ~ 15-2...',
   type: 'Full-time',
   leftMoneyType: 'Hoa Hồng',
   leftValue: '12000000 VNĐ',
@@ -78,8 +83,8 @@ const jobsList = [{
   status: 'Onboard',
   rank: 'premium',
 }, {
-  image: JobImage,
-  title: 'Data Engineer',
+  image: JobIcon1,
+  title: 'Junior PHP Developer ~ 15-2...',
   type: 'Full-time',
   leftMoneyType: 'Hoa Hồng',
   leftValue: '12000000 VNĐ',
@@ -89,8 +94,8 @@ const jobsList = [{
   status: 'Onboard',
   rank: 'premium',
 }, {
-  image: JobImage,
-  title: 'Data Engineer',
+  image: JobIcon2,
+  title: 'Junior PHP Developer ~ 15-2...',
   type: 'Full-time',
   leftMoneyType: 'Hoa Hồng',
   leftValue: '12000000 VNĐ',
