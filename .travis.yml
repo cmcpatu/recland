@@ -6,11 +6,11 @@ cache:
    - node_modules
 script:
  - npm run eslint
- - npm run stylelint
-# deploy:
-#  provider: pages
-#  skip_cleanup: true
-#  github_token: $GITHUB_TOKEN
-#  local_dir: build
-#  on:
-#    branch: master
+#  - npm run stylelint
+deploy:
+ provider: pages
+ skip_cleanup: true
+ github_token: $GITHUB_TOKEN
+ local_dir: build
+ on:
+   branch: master
