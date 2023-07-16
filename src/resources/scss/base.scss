@@ -69,7 +69,10 @@ body,
 
 /* end background */
 
-/* start background */
+/* start margin */
+.m-default {
+  margin-top: 20px;
+}
 .mt-default {
   margin-top: 20px;
 }
@@ -83,4 +86,23 @@ body,
   margin-right: 20px;
 }
 
-/* end background */
+/* end margin */
+
+/* start margin */
+.p-default {
+  padding: 20px;
+}
+.pt-default {
+  padding-top: 20px;
+}
+.pb-default {
+  padding-bottom: 20px;
+}
+.pl-default {
+  padding-left: 20px;
+}
+.pr-default {
+  padding-right: 20px;
+}
+
+/* end margin */
